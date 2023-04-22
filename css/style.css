@@ -8,76 +8,47 @@ body{
 }
 
 header{
-    height: 100px;
+    height: 100%;
     padding: 18px;
     background-color: rgb(221, 234, 169);
 }
 .logo{
     width: 200px;
 }
-.logo1{
-    margin-right: 300px;
-}
+
 nav li{
-    display: inline;
     font-family: 'Oswald', sans-serif;
 }
 li a{
     text-decoration: none;
     margin: 15px;
     font-size: 25px;
-    border-color: black;
-    border: 5px;
 }
 
-section{
-    margin: 20px;
+.seccionprincipal{
+    background-color: rgb(217, 193, 119);
+    padding: 10px;
 }
 article{
     position: relative;
 }
-.tituloindex{
-    position: absolute;
-    top: 30px;
-    left: 285px;
+.tituloseccion{
     font-size: 40px;
-    color: rgb(228, 220, 149);
+    color: black;
 }
+
 h1{
     font-family: 'Alkatra', cursive;
+    text-align: center;
 }
-.imagenindex{
-    width: 800px;
-    margin-left: 19%;
-    margin-right: 20%;
-    border-radius: 20px;
-    box-shadow: 0px 15px 25px gray;
-}
-.flecha1index{
-    position: absolute;
-    top: 210px;
-    left: 100px;
-}
-.flecha2index{
-    position: absolute;
-    top: 210px;
-    right: 100px;
-}
-.botonindex{
-    position: absolute;
-    left: 580px;
-    bottom: 20px;
-    width: 150px;
-    height: 60px;
-    border-radius: 15px;
-    background-color: rgb(201, 232, 181);
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+#carouselExampleFade{
+    width: 85%;
+    height: 85%;
+    left: 7%;
 }
 
 .articulosomos{
-    height: 450px;
+    height: 100%;
 }
 .titulosomos{
     position: absolute;
@@ -94,34 +65,22 @@ h1{
 .fotopareja1{
     width: 200px;
     height: 200px;
-    position: absolute;
-    right: 300px;
-    top: 2px;
     border-radius: 10px;
     box-shadow: 15px 15px 25px gray;
 }
 .fotopareja2{
     width: 200px;
     height: 200px;
-    position: absolute;
-    right: 150px;
-    top: 100px;
     border-radius: 10px;
     box-shadow: 15px 15px 25px gray;
 }
 .fotopareja3{
     width: 200px;
     height: 200px;
-    position: absolute;
-    right: 250px;
-    top: 250px;
     border-radius: 10px;
     box-shadow: 15px 15px 25px gray;
 }
 .botonsomos{
-    position: absolute;
-    left: 300px;
-    bottom: 100px;
     width: 150px;
     height: 60px;
     border-radius: 15px;
@@ -132,121 +91,63 @@ h1{
 }
 
 .articuloeventos{
-    height: 450px;
+    height: 100%;
 }
 .tituloeventos{
-    position: absolute;
-    left: 500px;
     font-size: 40px;
+    text-align: center;
+    padding: 20px;
 }
 .textoeventos{
-    position: absolute;
-    left: 300px;
-    bottom: 50px;
+    text-align: center;
     font-size: 25px;
+    padding: 10px;
 }
-.deco1{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 10px;
-    top: 60px;
-    border-radius: 10px;
-    box-shadow: 0px 15px 25px gray;
-}
-.deco2{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 270px;
-    top: 60px;
-    border-radius: 10px;
-    box-shadow: 0px 15px 25px gray;
-}
-.deco3{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 530px;
-    top: 60px;
-    border-radius: 10px;
-    box-shadow: 0px 15px 25px gray;
-}
-.deco4{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 790px;
-    top: 60px;
-    border-radius: 10px;
-    box-shadow: 0px 15px 25px gray;
-}
-.deco5{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    left: 1050px;
-    top: 60px;
-    border-radius: 10px;
+.deco{
+    border-radius: 100px;
     box-shadow: 0px 15px 25px gray;
 }
 
 .articuloservicios{
-    height: 450px;
+    height: 100%;
 }
 .tituloservicios{
-    position: absolute;
-    left: 500px;
     font-size: 40px;
+    text-align: center;
 }
-.general{
+
+.decogeneral{
     width: 200px;
     height: 200px;
+    text-align: center;
     border-radius: 50%;
-    position: absolute;
-    top: 70px;
-    left: 150px;
     border-style: solid;
     border-color: rgb(176, 89, 48);
 }
-.textogeneral{
-    position: absolute;
-    top: 290px;
-    left: 40px;
+.textodecogeneral{
     font-size: 20px;
 }
 .candy{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
-    top: 70px;
-    left: 550px;
     border-style: solid;
     border-color: rgb(176, 89, 48);
 }
 .textocandy{
-    position: absolute;
-    top: 290px;
-    left: 530px;
     font-size: 20px;
 }
 .agregado{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
-    top: 70px;
-    right: 150px;
     border-style: solid;
     border-color: rgb(176, 89, 48);
 }
 .textoagregado{
-    position: absolute;
-    top: 290px;
-    right: 110px;
     font-size: 20px;  
 }
+
 .mapacontacto{
     position: absolute;
     right: 30px;
@@ -254,7 +155,7 @@ h1{
 }
 
 footer{
-    height: 200px;
+    height: 100%;
     background-color: rgb(176, 89, 48);
     position: relative;
 }
@@ -281,17 +182,23 @@ h2{
     width: 30px;
     margin: 5px;
 }
-.contacto{
-    position: absolute;
-    left: 550px;
-    top: 0;
-}
-.ubicanos{
-    position: absolute;
-    top: 0;
-    right: 1px;
-}
 .mapafooter{
-    width: 300px;
-    height: 150px;
+    width: 240px;
+    height: 90px;
+}
+@media screen and (max-width: 768px) {
+    .tituloseccion{
+        font-size: 30px;
+    }
+    .titulofooter{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .tituloseccion{
+        font-size: 20px;
+    }
+    .titulofooter{
+        font-size: 20px;
+    }
 }

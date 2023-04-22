@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ensueño Ambientaciones</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="shortcut icon" href="../images/icons/iconoensueno.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,56 +18,76 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li class="logo1">
-                    <a href="../index.html"><img class="logo" src="../images/logo ensueño.jpg" alt="logo-ensueño"></a>
-                </li>
-                <li>
-                    <a href="./quienes-somos.html">Quienes somos</a> 
-                </li>
-                <li>
-                    <a href="./eventos.html">Eventos</a> 
-                </li>
-                <li>
-                    <a href="./servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./contactocotizar.html">Contacto/Cotizar</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+                <a href="../index.html">
+                    <img class="logo" src="../images/logo ensueño.jpg" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/quienes-somos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactocotizar.html">Contacto/Cotizar</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
-    <section>
-        <article class="articuloservicios">
-            <h1 class="tituloservicios">Nuestros Servicios</h1>
-            <img class="general" src="../images/decominie.jpg" alt="decogeneral">
-            <p class="textogeneral">Decoracion de salon completo con telas, globos, etc.</p>
-            <img class="candy" src="../images/decovaca.jpg" alt="candybar">
-            <p class="textocandy">Mesa dulce decorada o simple.</p>
-            <img class="agregado" src="../images/agregados1.jpg" alt="agregados">
-            <p class="textoagregado">Extras para completar tu evento.</p>
+    <section class="seccionprincipal container-fluid">
+        <article class="articuloservicios row">
+            <div class="col-12">
+                <h1 class="tituloseccion">Nuestros Servicios</h1>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <img class="decogeneral" src="../images/decominie.jpg" alt="decogeneral">
+                <p class="textodecogeneral">Decoracion de salon completo con telas, globos, etc.</p>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <img class="candy" src="../images/decovaca.jpg" alt="candybar">
+                <p class="textocandy">Mesa dulce decorada o simple.</p>
+            </div>
+            <div class="col-md-4 col-12 text-center">
+                <img class="agregado" src="../images/agregados1.jpg" alt="agregados">
+                <p class="textoagregado">Extras para completar tu evento.</p>
+            </div>
         </article>
     </section>
-    <footer>
-        <div class="siguenos">
-            <h2>Siguenos</h2>
-            <a href="https://www.facebook.com"><img class="facebookicon" src="../images/icons/face.png" alt="icono-facebook"></a>
-            <a href="https://www.instagram.com"><img class="instagramicon" src="../images/icons/insta.png" alt="icono-instagram"></a>
-            
-            <a href="https://www.twitter.com"><img class="twittericon" src="../images/icons/twit.png" alt="icono-twitter"></a>
-            
-        </div>
-        <div class="contacto">
-            <h2>Contacto</h2>
-            <a href="https://wa.me/542645292913"><img class="whatsappicon" src="../images/icons/wha.png" alt="icono-whatsapp"></a>
-            <a href="https://m.me"><img class="messengericon" src="../images/icons/mess.png" alt="icono-messenger"></a>
-        </div>
-        <div class="ubicanos">
-            <h2>Ubicanos</h2>
-            <p>Salta 1795 norte, Capital, San Juan, Argentina</p>
-            <iframe class="mapafooter" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.368135567628!2d-68.53980708530305!3d-31.514047508135032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141c4c68a070f%3A0x43dbaf718f9cee91!2sSalta%201772%2C%20San%20Juan!5e0!3m2!1ses!2sar!4v1680010900738!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <footer class="container-fluid text-center">
+        <section class="row">
+            <div class="col-md-4 col-sm-12">
+                <h2 class="titulofooter">Siguenos</h2>
+                <a href="https://www.facebook.com"><img class="facebookicon" src="../images/icons/face.png" alt="icono-facebook"></a>
+                <a href="https://www.instagram.com"><img class="instagramicon" src="../images/icons/insta.png" alt="icono-instagram"></a>
+                <a href="https://www.twitter.com"><img class="twittericon" src="../images/icons/twit.png" alt="icono-twitter"></a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h2 class="titulofooter">Contacto</h2>
+                <a href="https://wa.me/542645292913"><img class="whatsappicon" src="../images/icons/wha.png" alt="icono-whatsapp"></a>
+                <a href="https://m.me"><img class="messengericon" src="../images/icons/mess.png" alt="icono-messenger"></a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <h2 class="titulofooter">Ubicanos</h2>
+                <p>Salta 1795 norte, Capital, San Juan, Argentina</p>
+                <iframe class="mapafooter" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.368135567628!2d-68.53980708530305!3d-31.514047508135032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x968141c4c68a070f%3A0x43dbaf718f9cee91!2sSalta%201772%2C%20San%20Juan!5e0!3m2!1ses!2sar!4v1680010900738!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
