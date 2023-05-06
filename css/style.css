@@ -1,204 +1,222 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgb(228, 220, 149);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    height: 100%;
-    padding: 18px;
-    background-color: rgb(221, 234, 169);
-}
-.logo{
-    width: 200px;
+body {
+  background-color: rgb(241, 240, 205);
 }
 
-nav li{
-    font-family: 'Oswald', sans-serif;
-}
-li a{
-    text-decoration: none;
-    margin: 15px;
-    font-size: 25px;
+h1 {
+  font-family: "Alkatra", cursive;
+  text-align: center;
 }
 
-.seccionprincipal{
-    background-color: rgb(217, 193, 119);
-    padding: 10px;
-}
-article{
-    position: relative;
-}
-.tituloseccion{
-    font-size: 40px;
-    color: black;
+article {
+  position: relative;
 }
 
-h1{
-    font-family: 'Alkatra', cursive;
-    text-align: center;
-}
-#carouselExampleFade{
-    width: 85%;
-    height: 85%;
-    left: 7%;
+.seccionprincipal {
+  background-color: rgb(241, 240, 205);
 }
 
-.articulosomos{
-    height: 100%;
-}
-.titulosomos{
-    position: absolute;
-    left: 100px;
-    font-size: 40px;
-}
-.historia{
-    position: absolute;
-    left: 100px;
-    top: 150px;
-    width: 500px;
-    text-align: center;
-}
-.fotopareja1{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 15px 15px 25px gray;
-}
-.fotopareja2{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 15px 15px 25px gray;
-}
-.fotopareja3{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    box-shadow: 15px 15px 25px gray;
-}
-.botonsomos{
-    width: 150px;
-    height: 60px;
-    border-radius: 15px;
-    background-color: rgb(201, 232, 181);
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+header {
+  height: 100%;
+  padding: 18px;
+  background-color: rgb(221, 234, 169);
 }
 
-.articuloeventos{
-    height: 100%;
-}
-.tituloeventos{
-    font-size: 40px;
-    text-align: center;
-    padding: 20px;
-}
-.textoeventos{
-    text-align: center;
-    font-size: 25px;
-    padding: 10px;
-}
-.deco{
-    border-radius: 100px;
-    box-shadow: 0px 15px 25px gray;
+.logo {
+  width: 200px;
 }
 
-.articuloservicios{
-    height: 100%;
-}
-.tituloservicios{
-    font-size: 40px;
-    text-align: center;
+nav li {
+  font-family: "Oswald", sans-serif;
 }
 
-.decogeneral{
-    width: 200px;
-    height: 200px;
-    text-align: center;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: rgb(176, 89, 48);
-}
-.textodecogeneral{
-    font-size: 20px;
-}
-.candy{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: rgb(176, 89, 48);
-}
-.textocandy{
-    font-size: 20px;
-}
-.agregado{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: rgb(176, 89, 48);
-}
-.textoagregado{
-    font-size: 20px;  
+li a {
+  text-decoration: none;
+  margin: 15px;
+  font-size: 25px;
 }
 
-.mapacontacto{
-    position: absolute;
-    right: 30px;
-    top: 200px;
+.tituloseccion {
+  font-size: 40px;
+  color: black;
 }
 
-footer{
-    height: 100%;
-    background-color: rgb(176, 89, 48);
-    position: relative;
+#carouselExampleFade {
+  width: 85%;
+  height: 85%;
+  left: 7%;
 }
-h2{
-    font-family: 'Oswald', sans-serif;
+
+.articuloindex {
+  background-color: rgb(241, 240, 205);
 }
-.facebookicon{
-    width: 30px;
-    margin: 5px;
+
+.articulosomos {
+  height: 100%;
 }
-.instagramicon{
-    width: 30px;
-    margin: 5px;
+
+.titulosomos {
+  font-size: 40px;
 }
-.twittericon{
-    width: 30px;
-    margin: 5px;
+
+.historia {
+  width: 500px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.whatsappicon{
-    width: 30px;
-    margin: 5px;
+
+.fotocentrada {
+  text-align: center;
 }
-.messengericon{
-    width: 30px;
-    margin: 5px;
+
+.fotopareja {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 25px gray;
 }
-.mapafooter{
-    width: 240px;
-    height: 90px;
+
+.botonsomos {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: rgb(201, 232, 181);
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }
+
+.articuloeventos {
+  height: 100%;
+}
+
+.tituloeventos {
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.textoeventos {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.deco {
+  border-radius: 100px;
+  box-shadow: 0px 15px 25px gray;
+}
+.deco:hover {
+  transform: scale(1.3);
+}
+
+.articuloservicios {
+  height: 100%;
+}
+
+.tituloservicios {
+  font-size: 40px;
+  text-align: center;
+}
+
+.decogeneral {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(176, 89, 48);
+}
+
+.textodecogeneral {
+  font-size: 20px;
+}
+
+.candy {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(176, 89, 48);
+}
+
+.textocandy {
+  font-size: 20px;
+}
+
+.agregado {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(176, 89, 48);
+}
+
+.textoagregado {
+  font-size: 20px;
+}
+
+footer {
+  height: 100%;
+  background-color: rgb(176, 89, 48);
+  position: relative;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+}
+
+.facebookicon {
+  width: 30px;
+  margin: 5px;
+}
+
+.instagramicon {
+  width: 30px;
+  margin: 5px;
+}
+
+.twittericon {
+  width: 30px;
+  margin: 5px;
+}
+
+.whatsappicon {
+  width: 30px;
+  margin: 5px;
+}
+
+.messengericon {
+  width: 30px;
+  margin: 5px;
+}
+
+.mapafooter {
+  width: 240px;
+  height: 90px;
+}
+
 @media screen and (max-width: 768px) {
-    .tituloseccion{
-        font-size: 30px;
-    }
-    .titulofooter{
-        font-size: 25px;
-    }
+  .tituloseccion {
+    font-size: 30px;
+  }
+  .titulofooter {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 480px) {
-    .tituloseccion{
-        font-size: 20px;
-    }
-    .titulofooter{
-        font-size: 20px;
-    }
+  .tituloseccion {
+    font-size: 20px;
+  }
+  .titulofooter {
+    font-size: 20px;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

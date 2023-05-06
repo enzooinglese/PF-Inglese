@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $colorfondo;
+}
+h1{
+    font-family: 'Alkatra', cursive;
+    text-align: center;
+}
+article{
+    position: relative;
+}
+.seccionprincipal{
+    background-color: $colorfondo;
+}

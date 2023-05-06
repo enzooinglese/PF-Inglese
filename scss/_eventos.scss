@@ -1,0 +1,20 @@
+.articuloeventos{
+    height: 100%;
+}
+.tituloeventos{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+}
+.textoeventos{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.deco{
+    border-radius: 100px;
+    box-shadow: 0px 15px 25px gray;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
